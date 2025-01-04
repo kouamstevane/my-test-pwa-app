@@ -4,12 +4,12 @@ import "./globals.css"; // Le CSS global
 import ServiceWorkerManager from "../components/ServiceWorkerManager";
 
 const geistSans = Geist({
-  variable: "--font-geist-sans",
+  variable: "--background",
   subsets: ["latin"],
 });
 
 const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+  variable: "--foreground",
   subsets: ["latin"],
 });
 

@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 
 const InstallPWAButton = () => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const [deferredPrompt, setDeferredPrompt] = useState<any>(null);
     const [isPWAInstallable, setIsPWAInstallable] = useState(false);
 

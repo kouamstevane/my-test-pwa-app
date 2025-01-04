@@ -1,6 +1,11 @@
-:root {
+/* :root {
   --font-geist-sans: "Geist", sans-serif;
   --font-geist-mono: "Geist Mono", monospace;
+} */
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
 }
 
 body {
